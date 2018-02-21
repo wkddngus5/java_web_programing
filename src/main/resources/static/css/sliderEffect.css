@@ -1,0 +1,18 @@
+.reactive-box {
+    width: 50vw;
+    height: 50vw;
+    -webkit-transition: 0.1s;
+    margin: 5vh 0 5vh 0;
+}
+
+td {
+    height: 50vw;
+    border: solid;
+    display: none;
+    border-width: 1px;
+    background-color: gold;
+}
+
+td.is-visible {
+    display: inline-block;
+}

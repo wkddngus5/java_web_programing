@@ -17,4 +17,9 @@ public class HomeController {
         log.debug("home");
         return "index";
     }
+
+    @GetMapping("/increase")
+    public String increase() {
+        return "number-increase";
+    }
 }
